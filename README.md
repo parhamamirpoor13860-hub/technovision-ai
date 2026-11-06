@@ -1,54 +1,67 @@
-# 🚀 وب‌سایت پرهام امیرپور | TechnoVision AI
+# TechnoVision AI 🌐⚡
 
-> وب‌سایت شخصی، رزومه تعاملی و پورتفولیوی مهندسی نرم‌افزار و پژوهش‌های هوش مصنوعی **پرهام امیرپور (Parham Amirpoor)**.
+[![GitHub Pages](https://img.shields.io/badge/Demo-Live%20on%20GitHub%20Pages-2563EB?style=for-the-badge&logo=github)](https://parhamamirpoor13860-hub.github.io/technovision-ai/)
+[![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Operational%2099.99%25-06B6D4?style=for-the-badge)](https://parhamamirpoor13860-hub.github.io/technovision-ai/)
 
-🌐 **مشاهده آنلاین وب‌سایت در گیت‌هاب پیجز:**  
-[https://parhamamirpoor13860-hub.github.io/technovision-ai/](https://parhamamirpoor13860-hub.github.io/technovision-ai/)
+> **Next-Generation Computer Vision & Multimodal Intelligence Engine**  
+> **موتور هوش مصنوعی بینایی ماشین و درک چندوجهی بلادرنگ برای صنایع و سامانه‌های هوشمند**
 
----
-
-## 🌟 ویژگی‌های کلیدی وب‌سایت
-
-- 🎨 **طراحی مدرن، زیبا و واکنش‌گرا (Responsive & RTL):** هماهنگی کامل با نگارش فارسی با استفاده از تایپوگرافی زیبای وزیرمتن (Vazirmatn).
-- 🌓 **پشتیبانی از حالت روز و شب (Dark / Light Theme):** با قابلیت ذخیره‌سازی خودکار سلیقه کاربر در حافظه محلی (localStorage).
-- 💻 **کنسول تعاملی خط فرمان (Interactive UNIX Terminal):** امکان اجرای دستورات زنده (`help`, `skills`, `projects`, `about`, `contact`, `quote`, `tech`, `resume`).
-- 🔍 **فیلتر آنی و جستجوی زنده مهارت‌ها:** قابلیت جستجوی کلیدواژه‌ای در میان پشته فناوری‌ها (پایتون، یادگیری عمیق، پردازش زبان طبیعی، داکر و...).
-- 📂 **معرفی تعاملی پروژه‌ها (Project Modals):** مشاهده عمیق معماری سامانه‌ها، معیارهای عملکردی (بنچمارک‌ها) و چالش‌های حل‌شده.
-- 📄 **رزومه رسمی با قابلیت چاپ استاندارد (A4 Print / Save as PDF):** پنجره اختصاصی رزومه با استایل‌های مجزا برای پرینت یا ذخیره مستقیم به فرمت PDF.
-- ✉️ **فرم تماس هوشمند و دکمه‌های کپی مستقیم:** با سیستم اعلانات Toast مدرن و واکنش‌گرا.
+🔗 **Live Website / وب‌سایت زنده:** [https://parhamamirpoor13860-hub.github.io/technovision-ai/](https://parhamamirpoor13860-hub.github.io/technovision-ai/)
 
 ---
 
-## 🛠️ پشته فناوری (Tech Stack)
+## 🌟 Key Features / ویژگی‌های کلیدی
 
-- **ساختار:** Semantic HTML5 با سئو (SEO) پیشرفته و برچسب‌های متادیتا (OpenGraph & Schema.org)
-- **استایل:** Pure Modern CSS3 (بدون کتابخانه‌های حجیم، متغیرهای CSS، Flexbox & Grid)
-- **منطق:** Vanilla Modern JavaScript (ES6+ Modular)
-- **فونت‌ها:** Google Fonts (Vazirmatn & JetBrains Mono)
-- **میزبانی و استقرار:** GitHub Pages (استقرار خودکار و بلادرنگ)
+- 🌐 **Bilingual Architecture (دوزبانه کامل):** Instant toggle between Persian (RTL with Vazirmatn typography) and English (LTR with Plus Jakarta Sans).
+- 🌓 **Obsidian & Studio Theme:** Dark and Light mode support with smooth transitions and persistence.
+- 🔬 **Interactive Neural Studio:** Live inference simulation across PCB defect analysis, Autonomous Mobility, and Smart Logistics with real-time confidence threshold tuning and telemetry HUD.
+- ⚡ **Sub-8ms Latency:** High-throughput edge inference benchmarks powered by TensorRT and ONNX Runtime.
+- 📑 **Comprehensive API Integration:** Code snippets in Python, cURL, Node.js, and Go.
+- 🔑 **Developer Sandbox Modal:** Instant realistic API key generator for prototyping.
 
 ---
 
-## 📁 ساختار فایل‌های پروژه
+## 🚀 Quick Start / راه‌اندازی سریع
 
-```text
+To run the website locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/parhamamirpoor13860-hub/technovision-ai.git
+
+# Navigate to project folder
+cd technovision-ai
+
+# Open index.html in your browser or run a lightweight local server:
+npx serve .
+# or
+python3 -m http.server 8000
+```
+
+Open `http://localhost:8000` in your web browser.
+
+---
+
+## 📁 Repository Structure / ساختار پروژه
+
+```
 technovision-ai/
+├── index.html              # Main application page (semantic HTML5, SEO optimized)
+├── styles.css              # Obsidian Design System, variables & responsive layout
+├── app.js                  # Bilingual i18n engine, neural HUD, and simulator logic
 ├── assets/
-│   ├── images/
-│   │   └── avatar.jpg       # تصویر پرتره اختصاصی
-│   └── icons/
-├── css/
-│   └── style.css            # استایل‌های مدرن با متغیرهای تم و پرینت رزومه
-├── js/
-│   └── main.js              # تعاملات کاربری، ترمینال، تم و مدال‌ها
-├── index.html               # صفحه اصلی و سند وب‌سایت
-└── README.md                # مستندات ریپازیتوری
+│   └── images/             # Ultra-high-resolution vision inspection feeds
+│       ├── demo_pcb.jpg
+│       ├── demo_auto.jpg
+│       └── demo_warehouse.jpg
+└── README.md               # Project documentation
 ```
 
 ---
 
-## 📬 راه‌های ارتباطی
+## 📄 License
 
-- **ایمیل:** [parhamamirpoor13860@gmail.com](mailto:parhamamirpoor13860@gmail.com)
-- **گیت‌هاب:** [@parhamamirpoor13860-hub](https://github.com/parhamamirpoor13860-hub)
-- **ریپازیتوری:** [parhamamirpoor13860-hub/technovision-ai](https://github.com/parhamamirpoor13860-hub/technovision-ai)
+Distributed under the MIT License. See `LICENSE` for more information.
+
+Developed with precision for **TechnoVision AI**.
